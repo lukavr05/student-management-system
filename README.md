@@ -26,7 +26,7 @@ CREATE TABLE module(
 );
 ```
 
-- **Registration:** represents the relaitonship between a student and a module, follwoing this SQL schema:
+- **Registration:** represents the relaitonship between a student and a module, following this SQL schema:
 ```
 CREATE TABLE registration(
   id SERIAL PRIMARY KEY,
@@ -53,7 +53,7 @@ CREATE TABLE grade(
 );
 ```
 
-**Note:** this web application only uses H2 in-memory database, so data is not persistent (so don't be afraid if it all disappears when you close your browser)
+***Note:** this web application only uses H2 in-memory database, so data is not persistent (so don't be afraid if it all disappears when you close your browser)*
 
 ### Running the Backend
 
@@ -79,4 +79,4 @@ Once you successfully build the frontend, you can run it with the ```npm run dev
 Then, you can see your frontend working on your browser at http://localhost:5173
 
 
-This project was originally developed on a university-hosted Gitlab.
+*This project was originally developed on a university-hosted Gitlab.*
