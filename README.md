@@ -7,7 +7,7 @@ This is a web implementation of a Student Grade Management System, completed as 
 It utilises a Java backend, containing all the basic logic in the [Springboot](https://spring.io/projects/spring-boot) framework, packaged as a Maven project. The `model` package contains all of the classes pertaining to the system itself, consisting of Student, Module, Registration and Grade.
 
 - **Student:** represents a single student with the system and implenets all of the methods required to fit the following SQL schema:
-```
+```sql
 CREATE TABLE student(
   id INT PRIMARY KEY,
   firstName VARCHAR(30),
@@ -18,7 +18,7 @@ CREATE TABLE student(
 ```
 
 - **Module:** represents a module on a course, with the field `mnc` describing whether the module is mandatory non-condonable. It follows the following SQL schema:
-```
+```sql
 CREATE TABLE module(
   code VARCHAR(10) PRIMARY KEY,
   name VARCHAR(100),
@@ -27,7 +27,7 @@ CREATE TABLE module(
 ```
 
 - **Registration:** represents the relaitonship between a student and a module, following this SQL schema:
-```
+```sql
 CREATE TABLE registration(
   id SERIAL PRIMARY KEY,
   student_id INT,
