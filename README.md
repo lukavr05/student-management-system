@@ -79,4 +79,4 @@ Once you successfully build the frontend, you can run it with the ```npm run dev
 Then, you can see your frontend working on your browser at http://localhost:5173
 
 
-*This project was originally developed on a university-hosted Gitlab.*
+*This project was originally developed on a university-hosted Gitlab repository.*
